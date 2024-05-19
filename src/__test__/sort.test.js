@@ -13,3 +13,4 @@ test ("check sort by keys", () => {
       // eslint-disable-next-line no-undef
       expect(orderByProps(character, ["name", "level"])).toEqual(expectedValue) ;
   });
+  

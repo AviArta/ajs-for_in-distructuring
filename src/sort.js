@@ -14,3 +14,4 @@ export function orderByProps(obj, arrKeys) {
     resultForSort.forEach((element) => sortResult.push({ key: element[0], value: element[1] }));
     return sortResult;
   }
+  
